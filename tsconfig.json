@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "outDir": "lib",
+    "target": "es5",
+    "stripInternal": true,
+    "declaration": true,
+    "sourceMap": true
+  },
+  "files": [
+    "src/index.ts",
+    "src/DataBus.ts"
+  ]
+}

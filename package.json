@@ -1,0 +1,39 @@
+{
+  "name": "@cross-border-bridge/data-bus",
+  "version": "2.0.0",
+  "description": "DataBus interface",
+  "main": "lib/index.js",
+  "typings": "typings/DataBus.d.ts",
+  "devDependencies": {
+    "del": "*",
+    "gulp": "*",
+    "typescript": "1.7.5",
+    "gulp-typescript": "2.11.0",
+    "merge2": "*"
+  },
+  "dependencies": {
+  },
+  "files": [
+    "lib",
+    "typings"
+  ],
+  "scripts": {
+    "prepublish": "npm run clean && npm run build",
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cross-border-bridge/data-bus.git"
+  },
+  "author": "DWANGO Co., Ltd.",
+  "license": "MIT",
+  "keywords": [
+    "cbb", "rpc", "ipc", "bridge"
+  ],
+  "bugs": {
+    "url": "https://github.com/cross-border-bridge/data-bus/issues"
+  },
+  "homepage": "https://github.com/cross-border-bridge/data-bus#readme"
+}
